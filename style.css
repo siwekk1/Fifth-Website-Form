@@ -25,8 +25,23 @@ nav{
     margin: 0px;
     padding: 10px;
     font-size: 18px;
-    min-height: 40px;
+    min-height: 38px;
     line-height: 200%;
-    
-
+}
+.menu > li {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px  #ddd dashed;
+    display: inline-block; 
+}
+.menu > li:first-child{
+    border-left: 1px #ddd dashed;;
+}
+.menu a
+{
+    color: #ddd;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #ccc
 }
